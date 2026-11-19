@@ -29,8 +29,7 @@ jobs:
           API_URL: ${{ vars.VITE_API_BASE_URL }}
         run: |
           if [[ "$API_URL" != https://* ]]; then
-            echo 'Добавьте HTTPS-адрес backend в Settings > Secrets and variables > Actions > Variables: VITE_API_BASE_URL'
-            exit 1
+            echo 'VITE_API_BASE_URL пока не задан: публикуем интерфейс, backend можно подключить позже через Actions Variables.'
           fi
       - run: npm ci
         working-directory: frontend
