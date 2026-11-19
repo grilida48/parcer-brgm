@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+*.db
+*.db-shm
+*.db-wal
+node_modules/
+frontend/dist/
+.runtime/
+test-results/
+playwright-report/
+**/.pnpm-store/
+**/tsconfig.tsbuildinfo

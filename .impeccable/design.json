@@ -1,0 +1,59 @@
+{
+  "extensions": {
+    "breakpoints": [
+      {
+        "value": "1500px",
+        "name": "wide"
+      },
+      {
+        "value": "1250px",
+        "name": "compact"
+      },
+      {
+        "value": "1000px",
+        "name": "tablet"
+      },
+      {
+        "value": "760px",
+        "name": "mobile"
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-color",
+        "value": ".15s ease-out",
+        "purpose": "Изменение цвета кнопки"
+      },
+      {
+        "name": "drawer-in",
+        "value": ".18s ease-out",
+        "purpose": "Открытие панели клиента"
+      },
+      {
+        "name": "mobile-sidebar",
+        "value": ".2s ease-out",
+        "purpose": "Открытие навигации"
+      }
+    ]
+  },
+  "schemaVersion": 2,
+  "narrative": {
+    "keyCharacteristics": [
+      "Светлая и тёмная темы",
+      "Русский интерфейс",
+      "Таблицы с внутренней прокруткой"
+    ],
+    "donts": [
+      "Не добавлять декоративную анимацию"
+    ],
+    "overview": "Рабочий интерфейс с плотными таблицами, формами и боковой навигацией. Графитовые поверхности и фиолетовый акцент заданы пользователем.",
+    "rules": [],
+    "dos": [
+      "Использовать смысловые роли цветов",
+      "Сохранять видимый фокус и текстовые статусы"
+    ]
+  },
+  "generatedAt": "2026-11-19T19:38:19.3371664Z",
+  "title": "Design System: DUS Leads",
+  "components": []
+}
